@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div>
+        <img src="em_baixo.png" alt="" id="em_B">
+        <img src="em_cima.png" alt="" id="em_c">
+    </div>
+
+    <div id="principal">
+
+        <h1>Voce esta obese ou não? </h1>
+        <form>
+            <input id="txt1" type="number" onfocus="calcular()" required placeholder="Peso(KG)"/>
+            <p id="div">%</p>
+            <input id="txt2" type="number" onblur="calcular()" required placeholder="Altura"/>
+        </form>
+        
+        <p id="result"></p>
+        <input type="button" id="inicio" value="ver resultado ">
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
